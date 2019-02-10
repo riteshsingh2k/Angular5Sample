@@ -1,0 +1,31 @@
+.container {
+    margin-top: 10px !important;
+    font-size: 12px !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  a:hover {
+    text-decoration: none !important;
+  }
+  
+  .panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    /* essential for enabling glyphicon */
+    content: "\e114";
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    /* adjust as needed */
+    color: grey;
+    font-size: 11px !important; 
+    /* adjust as needed */
+  }
+  
+  .panel-heading .accordion-toggle.collapsed:after {
+    /* sym<!--  -->bol for "collapsed" panels */
+    content: "\e080";
+    /* adjust as needed, taken from bootstrap.css */
+  }

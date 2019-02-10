@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "name": "ngOnChanges",
+    "description": "Respond when Angular (re)sets data-bound input properties."
+  },
+  {
+    "id": 2,
+    "name": "ngOnInit",
+    "description": "Called once, after the first ngOnChanges()"
+  },
+  {
+    "id": 3,
+    "name": "ngDoCheck",   
+    "description": "Called during every change detection run, immediately after ngOnChanges()"
+  },
+  {
+    "id": 4,
+    "name": "ngAfterContentInit",
+    "description": "Called once after the first ngDoCheck()"
+  },
+  {
+    "id": 5,
+    "name": "ngAfterContentChecked",
+    "description": "Called after the ngAfterContentInit()"
+  }
+]

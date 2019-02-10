@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "name": "John",
+    "department": "Sales",
+    "city": "Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "id": 2,
+    "name": "Mark",
+    "department": "Dispatch",
+    "city": "Utrecht",
+    "country": "Netherlands"
+  },
+  {
+    "id": 3,
+    "name": "Timo",
+    "department": "Marketing",
+    "city": "Almere",
+    "country": "Netherlands"
+  },
+  {
+    "id": 4,
+    "name": "Nico",
+    "department": "Purchase",
+    "city": "Den Haag",
+    "country": "Netherlands"
+  },
+  {
+    "id": 5,
+    "name": "Gerard",
+    "department": "Sales",
+    "city": "Rotterdam",
+    "country": "Netherlands"
+  }
+]

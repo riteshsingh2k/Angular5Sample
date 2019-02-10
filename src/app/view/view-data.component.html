@@ -1,0 +1,83 @@
+<div class="container">
+
+    <div class="panel-group" id="accordion" *ngFor='let funObj of functionObject; let i = index'>
+      <div class="panel panel-default">       
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              {{funObj.name}}()
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" *ngIf="i== 0">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th class="text-center" rowspan="2">id</th>
+                      <th class="text-center" rowspan="2">Name</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-center">
+                    <tr>
+                      <td class="text-left">{{funObj.id}}</td>
+                      <td class="text-left">{{funObj.name}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <div class="panel-title">Description</div>
+                  </div>
+                  <div class="panel-body" style="overflow:hidden;">
+                    <pre>{{funObj.description}}</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" *ngIf="i!= 0">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th class="text-center" rowspan="2">Oid</th>
+                      <th class="text-center" rowspan="2">Name</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-center">
+                    <tr>
+                      <td class="text-left">{{funObj.id}}</td>
+                      <td class="text-left">{{funObj.name}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <div class="panel-title">Description</div>
+                  </div>
+                  <div class="panel-body" style="overflow:hidden;">
+                    <pre>{{funObj.description}}</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
